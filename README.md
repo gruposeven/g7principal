@@ -11,23 +11,32 @@ ______________
 
 Os projetos serão dividios por modaldade de serviço conforme tabela abaixo:
 			
-			1- Finanças Pessoais
-			2- Advocacia
-			3- Home Care 	
-			4- Personal
-			5- Sustentabilidade Social 
-			6- Cursos Profissionalizantes
-			7- Diaristas e demais serviços		
-			8- Qualidade de Vida no trabalho
-			9- Terceirização Mão de Obra
-			10- Vigilancia
-			11- Contabilidade
-			12- Juridico
-			13- Licitações Publicas 
-			14- Jovem Aprendiz
-			15- Confecção
-			16- Administração Condominial
-			17- Educação Esporte e Lazer 
+1ª Fase - Previsão Junho 2018
+			1- Qualidade de Vida
+			2- Terceirização Mão de Obra
+			3- Contabilidade
+			4- Juridico
+			5- Licitações Publicas
+			6- Administração Condominial
+			7- Educação Esporte e Lazer 
+			8- Sustentabilidade Social 
+
+
+2ª Fase - Previsão Dezembro 2018
+			6- Finanças Pessoais
+			7- Advocacia
+			9- Jovem Aprendiz
+
+3ª Fase - Previsão Junho 2019 
+			10- Home Care 	
+			11- Personal
+			
+4ª Fase - Previsão Dezembro 2019
+			14- Cursos Profissionalizante	s
+			15- Vigilancia
+			16- Confecção
+			17- Diaristas e demais serviços		
+
 
 Os projetos serão divididos da seguinte forma (em ordem cronológica):
 	- Qualite de Vie 
@@ -148,6 +157,5 @@ Os projetos serão divididos da seguinte forma (em ordem publico alvo):
 
 
 
-Providencia - realizar a configuração do git ftp do projeto 2 para o novo dominio 
 
 				
