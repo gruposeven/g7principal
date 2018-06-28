@@ -1,6 +1,13 @@
-Criação do Repositório do Projeto Branch Master para G7 principal e criação do repositório remoto com interligação entre o master e o repositório remoto g7principal
+Criado do Repositório do Projeto Branch Master para G7 principal e criação do repositório remoto com interligação entre o master e o repositório remoto g7principal
 
- Responsividade: 1040 900 850 690 350
+Responsividade: 1040 900 850 690 350
+
+Atualizado o Sharing Debugger
+	maximo da imagem 1200x630 5mb
+	Meta Tag Face criado e criação do modelo HeadMetaFace para paginas a serem publicados no facebook
+
+
+ _____________
 
 O Projeto Master chamado G7 Pricipal corresponde ao site principal do Grupo Seven Brasil 
 
