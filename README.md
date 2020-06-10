@@ -160,6 +160,8 @@ Os projetos serão divididos da seguinte forma (em ordem publico alvo):
 			- Administração Condominial
 			- Educação Esporte e Lazer 
 			- Confecção 
+_________________
+Reativando servidor Grupo Seven Brasil em 10.06.2020
 
 
 
