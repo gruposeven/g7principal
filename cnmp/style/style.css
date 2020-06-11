@@ -1,0 +1,416 @@
+* {
+  box-sizing: border-box;  
+}
+body{
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+}
+h1, h2{
+    margin: 0px;
+}
+    .topo{
+        max-width: 1440px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+        .topoDireita{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin:10px;
+            width: 150px;
+        }
+        .topoEsquerdo{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin:10px;
+            width: 80px;
+
+        }
+
+            .topoDireita img{
+                width: 150px;
+            }
+            .topoEsquerdo img{
+                width: 80px;
+            }
+        .topoCentro{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:10px;
+
+        }
+        .topoCentro h2{
+            font-family: 'Indie Flower', cursive;
+        }    
+.autenticacao{
+    width: 100%;
+    max-width: 1440px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+#banner{
+    background-image:url('../imagens/ginasticalaboral.png');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .slogan{
+        display: flex;
+        flex:1;
+        flex-direction: column;
+    }
+        .tituloSlogan{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+            .tituloSlogan h1{
+                color:white;
+                margin: 25px;
+                font-size: 50px;
+                text-shadow: 0px 2px 0px #000000;
+                padding: 0;
+            }
+            .tituloSlogan h2{
+                color:white;
+                margin: 25px;
+                font-size: 35px;
+                text-shadow: 0px 2px 0px #000000;
+                font-family: 'Indie Flower', cursive;
+            }
+    .indisponivel{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 320px;
+        margin-bottom: 10px;
+        height: 100px;
+        padding: 10px;
+    }
+    .indisponivel button{
+        background-color: blue;
+        color: white;
+        height: 40px;
+    }
+        .topicoSlogan{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 150px;
+
+        }
+            .topicoSlogan a{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex:1;
+                margin: 20px;
+                max-width: 240px;
+                border-radius: 20px;
+                transition: all 1s linear;
+                transform: skew(15deg);
+                text-decoration: none;
+                align-items: center;
+                background-color: blue;
+                
+            }
+            .topicoSlogan a:hover{
+                background-color: red;
+
+            }
+        .topicoSlogan a h1{
+            flex:1;
+            color:white;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .topicoSlogan a h2{
+            color:white;
+            font-size: 18px;
+            flex: 1;
+            margin-top: 10px;
+        }
+.corpo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+    .corpo1 article{
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+            .descricao1, .descricao2{
+                display: flex;
+                flex-direction: column;
+                max-width: 640px;
+                margin:10px;
+                flex: 1;
+                text-align: left;
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+                    .tituloDescricao{
+                        max-height: 80px;
+                        background-color: #CCC;
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                    }
+                        .tituloDescricao h1{
+                            font-size: 20px;
+                            padding: 5px;
+                            font-family: 'Indie Flower', cursive;
+                        }
+                    .linhaDescricao{
+                        height: 2px;
+                        width: 40px;
+                        background-color: blue;
+                    }
+                    .textoDescricao{
+                        font-size: 15px;
+                        text-align: justify;
+                        margin: 10px;
+                        
+                    }
+                        .textoDescricao li{
+                            margin-top:10px;
+                        }
+    .corpo1 aside{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        
+    }
+        .headerAside{
+            display: flex;
+            flex:1;
+            flex-direction: row;
+            justify-content: center;
+            max-height: 100px;
+            background-color: #CCC;
+        }
+            .imagemHeaderAside{
+                display: flex;
+                flex:1;
+                justify-content: center;
+                margin: 5px;
+                max-height: 100px;
+                align-items: center;
+            }
+                    .imagemHeaderAside img{
+                        max-height: 70px;
+                    }
+            .tituloHeaderAside{
+                display: flex;
+                flex: 3;
+                justify-content: center;
+                margin: 5px;
+                align-items: center;
+                flex-direction: column;
+            }
+
+        .opcoesAside{
+            display: flex;
+            flex: 3;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top: 10px;
+        }
+            .opcoesAside a{
+                margin: auto;
+            }
+            .opcaoAside {
+                margin:auto;
+                width: 100px;
+                height: 100px;
+                margin-top: 10px;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid black;
+                }
+                .opcaoAside img{
+                    height: 98px;
+
+                }
+.corpo2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin-top: 10px;
+}
+.projeto{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.tituloProjeto{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+.linhaProjeto{
+    height: 2px;
+    width: 40px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imagemProjeto{
+    width:318px;
+    margin-top:10px;
+}
+.imagemProjeto img{
+    width: 316px;
+    height: 150px;
+    border:1px solid #ccc
+
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+.dadosFooter{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logoFooter{
+    flex-wrap: wrap;
+    width: 320px;
+    flex: 1;
+}
+.logoFooter img{
+    width: 100px;
+}
+.contatosFooter{
+    color: white;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: 10px;
+}
+.tituloContatos{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.linhaContatos{
+    height: 2px;
+    width: 40px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.textoContatos{
+    font-size: 12px;
+    margin: 10px;
+    width: 320px;
+}
+.textoContatos a{
+    color:white;
+}
+.redesFooter{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:750px){
+    .topicoSlogan a h2{
+        display: none;
+    }
+    .topicoSlogan a h1{
+        flex:none;
+    }
+}
+@media only screen and (max-width:910px){
+    .descricao1, .descricao2{
+        max-width: 480px;
+    }
+}
+@media only screen and (min-width:540px) and (max-width:800px){
+    .tituloHeaderAside h2{
+        display:none;
+    }
+}
+@media only screen and (max-width:628px){
+    .topo{
+        justify-content: center;
+    }
+    .topoDireita, .topoEsquerdo{
+        order: -1;
+    }
+}
+@media only screen and (max-width:600px){
+    .descricao1, .descricao2{
+        width: 320px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:540px){
+    .tituloHeaderAside{
+        display: none;
+    }
+}
+@media only screen and (max-width:400px){
+    .topoCentro h2{
+        font-size: 18px;
+    }
+    .topoCentro h1{
+        font-size: 25px;
+    }
+    .topicoSlogan a h1{
+        font-size: 14px;
+    }
+    .topicoSlogan a{
+        transform:none;
+        height: 70px;
+    }
+}
